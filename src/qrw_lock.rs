@@ -31,7 +31,7 @@ const READ_COUNT_MASK: usize = 0x00FFFFFF;
 const WRITE_LOCKED: usize = 1 << 24;
 const CONTENDED: usize = 1 << 25;
 
-const PRINT_DEBUG: bool = true;
+const PRINT_DEBUG: bool = false;
 
 /// Prints a debugging message if enabled.
 #[inline(always)]
